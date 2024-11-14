@@ -85,7 +85,7 @@
 
                 <p class="text-sm text-gray-600 text-center mt-4">
                     Sudah memiliki akun? 
-                    <a class="text-primary hover:text-secondary font-semibold" href="/login">Login</a>
+                    <a class="text-primary hover:text-primary_dark font-semibold" href="/login">Login</a>
                 </p>
             </form>
         </div>

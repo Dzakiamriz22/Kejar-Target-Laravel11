@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
-  @vite('resources/css/app.css') <!-- Pastikan file CSS sudah terpasang -->
+  @vite('resources/css/app.css') 
 </head>
 
 <body class="bg-cover bg-no-repeat" style="background-image: url('{{ asset('storage/img/bg-login.png') }}'); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;">
@@ -41,7 +41,7 @@
 
                 <p class="text-sm text-gray-600 text-center mt-4">
                     Belum punya akun? 
-                    <a class="text-primary hover:text-secondary font-semibold" href="/register">Daftar</a>
+                    <a class="text-primary hover:text-primary_dark font-semibold" href="/register">Daftar</a>
                 </p>
             </form>
         </div>
