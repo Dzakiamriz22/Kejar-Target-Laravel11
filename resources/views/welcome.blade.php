@@ -16,7 +16,7 @@
         Pertama Menuju Masa Depan Cerah. Jelajahi Beasiswa anda di Kejar Target!
       </p>
       <div class="flex justify-center">
-        <a href="{{ route('register') }}" class="bg-primary hover:bg-secondary text-white font-bold py-3 px-6 rounded-md focus:outline-none focus:shadow-outline">
+        <a href="{{ route('register') }}" class="bg-primary hover:bg-primary_dark text-white font-bold py-3 px-6 rounded-md focus:outline-none focus:shadow-outline">
           More Info
         </a>        
       </div>

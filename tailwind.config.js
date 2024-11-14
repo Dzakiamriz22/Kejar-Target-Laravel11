@@ -1,4 +1,4 @@
-import defaultTheme from 'tailwindcss/defaultTheme';
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -14,7 +14,7 @@ export default {
             },
             colors: {
                 primary: '#5955B3',
-                secondary: '#4e4b99',
+                primary_dark: '#4e4b99',
             },
         },
     },
