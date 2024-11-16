@@ -21,7 +21,7 @@
 
             <div class="mb-6 flex justify-between items-center">
                 <p class="text-xl font-semibold text-primary">Data Beasiswa</p>
-                <button class="bg-primary text-white py-2 px-4 rounded hover:bg-primary-dark">+ Tambah Data Beasiswa</button>
+                <a href="{{ route('tambahbeasiswa') }}" class="bg-primary text-white py-2 px-4 rounded hover:bg-primary-dark">+ Tambah Data Beasiswa</a>
             </div>
 
             <div class="overflow-x-auto bg-white shadow-md rounded-lg">

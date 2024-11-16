@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\BeasiswaController;
 use App\Http\Controllers\DetailController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
@@ -16,3 +17,5 @@ Route::get('/login', [LoginController::class, 'create'])->name('login');
 Route::get('/home', [HomeController::class, 'create'])->name('home');
 Route::get('/detail', [DetailController::class, 'create'])->name('detail');
 Route::get('/admin', [AdminController::class, 'create'])->name('admin');
+Route::get('/tambahbeasiswa', [BeasiswaController::class, 'create'])->name('tambahbeasiswa');
+Route::get('/editbeasiswa', [BeasiswaController::class, 'edit'])->name('editbeasiswa');
