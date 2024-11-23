@@ -3,6 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Faker\Factory as FakerFactory;
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -19,6 +21,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        $this->app->singleton(\Faker\Generator::class, function () {
+            return FakerFactory::create('id_ID'); // Mengatur lokal Faker ke Indonesia
+        });
     }
 }
